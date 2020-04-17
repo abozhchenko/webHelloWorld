@@ -6,3 +6,5 @@ sudo chmod -R 777 /opt/docker/webHelloWorld/
 
 docker run --rm --name web -p 8080:8080 -v /opt/docker/webHelloWorld/resources/:/opt/docker/app/resources/ webhelloworld
 
+# sudo rm -r /opt/docker/webHelloWorld
+exit 0
